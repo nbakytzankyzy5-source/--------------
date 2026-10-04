@@ -1,0 +1,57 @@
+.intro {
+    border: 1px solid #ccc;
+    padding:6px;
+
+}
+
+.intro::before {
+  content: "Welcome to Our Website!";
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.content::before {
+  content: "Discover our amazing features.";
+  display: block;
+  font-size: 18px;
+  color: #666;
+}
+.footer::before {
+  content: "Thank you for visiting!";
+  display: block;
+  font-size: 16px;
+  color: #999;
+}
+.content{
+    border: 1px solid #ccc;
+    padding:6px;
+    
+}
+
+.footer {
+    border: 1px solid #ccc;
+    padding:6px;
+}
+.title::after {
+  content: "Explore more on our site.";
+  display: block;
+  font-size: 16px;
+  color: #555;
+}
+.subtitle::after {
+    content: "Contact us for more information.";
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+.container::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: royalblue;
+}
+.container::first-line {
+   text-transform: uppercase;
+   font-weight: bold;
+
+}
